@@ -1,4 +1,4 @@
-public class Shape_day3_ex6 {
+public class day3_ex6 {
     public double area(){
         return 0;
     }
@@ -6,7 +6,7 @@ public class Shape_day3_ex6 {
     public double perimeter(){
         return 0;
     }
-static class Circle extends Shape_day3_ex6{
+static class Circle extends day3_ex6{
         double radius;
     public Circle(double radius){
         this.radius = radius;
@@ -21,7 +21,7 @@ static class Circle extends Shape_day3_ex6{
         return Math.PI * radius * radius;
     }
 }
-static class Rectangle extends Shape_day3_ex6{
+static class Rectangle extends day3_ex6{
         double length,breadth;
         public Rectangle(double length, double breadth){
             this.length = length;
